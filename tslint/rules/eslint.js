@@ -33,7 +33,7 @@ module.exports = {
     // disallow comparisons with the value NaN
     'use-isnan': true,
     // ensure that the results of typeof are compared against a valid string
-    "valid-typeof": true,
+    'valid-typeof': true,
 
     // Best Practices
     // --------------
@@ -57,12 +57,12 @@ module.exports = {
       outerIIFEBody: 1,
       FunctionDeclaration: {
         parameters: 1,
-        body: 1
+        body: 1,
       },
       FunctionExpression: {
         parameters: 1,
-        body: 1
-      }
+        body: 1,
+      },
     }],
 
     // ES6

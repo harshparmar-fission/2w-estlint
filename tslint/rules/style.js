@@ -1,10 +1,8 @@
 module.exports = {
   rules: {
     'array-type': [true, 'array'],
-    "arrow-parens": [
-      true,
-      'ban-single-arg-parens'
-    ],
+    // Prefer the eslint rules for this
+    'arrow-parens': false,
     indent: ['error', 2, {
       SwitchCase: 1,
       VariableDeclarator: 1,
@@ -27,9 +25,9 @@ module.exports = {
       true,
       'always',
     ],
-    "object-literal-key-quotes": [
+    'object-literal-key-quotes': [
       true,
-      "as-needed"
+      'as-needed',
     ],
     'ordered-imports': [
       true,
