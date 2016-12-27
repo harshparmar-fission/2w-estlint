@@ -1,8 +1,7 @@
 {
-  "name": "eslint-2w",
+  "name": "2W-lint",
   "version": "1.0.0",
-  "description": "eslint rules for 2nd watch",
-  "main": "index.js",
+  "description": "linting rules for 2nd watch",
   "author": {
     "name": "Steve Byerly",
     "email": "sbyerly@2ndwatch.com",
@@ -13,6 +12,10 @@
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint-plugin-react": "^6.8.0",
+    "tslint": "^4.2.0",
+    "tslint-eslint-rules": "^3.2.3",
+    "tslint-microsoft-contrib": "^4.0.0",
+    "tslint-react": "^2.2.0"
   }
 }
