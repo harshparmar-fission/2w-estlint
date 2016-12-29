@@ -24,6 +24,9 @@ In the future, versions will be tagged. You will specify a specific tag when ins
 
 ## Usage
 
+**Note:**  
+When updating your code to account for linting rules, please do so in a separate commit from any other features/bug fixes being worked on. This helps keep your commits focused on a logical set of changes, and makes code review a much easier process.
+
 ### ESLint:
 
 [ESLint](http://eslint.org/) is a linting utility for Javascript. There are integrations for all major IDEs that will automatically lint your `.js` and `.jsx` files. The utility can also be run via command line.
