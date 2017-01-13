@@ -3,6 +3,7 @@ module.exports = {
     'array-type': [true, 'array'],
     // Prefer the eslint rules for this
     'arrow-parens': false,
+    'import-spacing': true,
     indent: ['error', 2, {
       SwitchCase: 1,
       VariableDeclarator: 1,
@@ -38,6 +39,11 @@ module.exports = {
     ],
     quotemark: [true, 'single', 'jsx-double', 'avoid-escape'],
     semicolon: true,
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
     'variable-name': [
       true,
       'ban-keywords',
