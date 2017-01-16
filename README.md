@@ -6,7 +6,7 @@ A collection of linters specific for the 2nd Watch coding standards.
 - [Usage](#usage)
   - [ESLint](#eslint) - Javascript
   - [TSLint](#tslint) - Typescript
-  - [CSSLint](#csslint) - CSS (_pending_)
+  - [StyleLint](#stylelint) - CSS
 
 ## Contributing
 
@@ -78,8 +78,27 @@ Use the [tslint-gulp](https://www.npmjs.com/package/gulp-tslint) plugin.
 
 ---
 
-### CSSLint:
+### Stylelint:
 
 **_Support Pending_**
 
-[CSSLint](https://github.com/CSSLint/csslint) is a linting utility for CSS.
+[Stylelint](http://stylelint.io/) is a linting utility for CSS and its various flavors (SASS, LESS, etc). There are integrations for all major IDEs that will automatically lint your `.css` and `.scss` files. The utility can also be run via command line.
+
+1. Add an `.stylelintrc` file to your repository
+2. Extend the @2W/linters stylelint config
+
+  ```
+  {
+    "extends": "./node_modules/@2W/linters/stylelint/index.js"
+  }
+  ```
+3. Add any additional custom rules
+
+**Usage with your editor**:
+Use a compatible plugin. Options are found on the [stylelint website](http://stylelint.io/user-guide/complementary-tools/#editor-plugins)
+
+**Usage with Webpack**:  
+Use the [stylelint-webpack-plugin](https://github.com/JaKXz/stylelint-webpack-plugin) webpack plugin.
+
+**Usage with Gulp**:  
+Use the [gulp-stylelint](https://github.com/olegskl/gulp-stylelint) plugin.
