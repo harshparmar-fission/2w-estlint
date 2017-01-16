@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     'selector-attribute-quotes': 'always',
-    'selector-class-pattern': '^[a-z]+(-[a-z]+)?$',
+    'selector-class-pattern': '^([a-z][a-z]*)(-[a-z]+)*$',
     'selector-no-empty': true,
     'selector-no-attribute': true,
     'selector-no-id': true,

@@ -33,6 +33,8 @@ When updating your code to account for linting rules, please do so in a separate
 
 Our rules are currently based on the default Airbnb Javascript style guide [[link](https://github.com/airbnb/javascript)].
 
+To configure linting:
+
 1. Add an `.eslintrc` file to your repository
 2. Extend the 2W-Lint eslint config
 
@@ -60,6 +62,8 @@ Our rules are customized and heavily influenced by the Airbnb Javascript style g
 
 There are currently two versions of our configuration: `front-end` and `back-end`, with the only difference being the front-end configuration includes rules for ReactJS.
 
+To configure linting:
+
 1. Add a `tslint.json` file to your repository
 2. Extend the 2W-Lint tslint config
 
@@ -83,6 +87,14 @@ Use the [tslint-gulp](https://www.npmjs.com/package/gulp-tslint) plugin.
 **_Support Pending_**
 
 [Stylelint](http://stylelint.io/) is a linting utility for CSS and its various flavors (SASS, LESS, etc). There are integrations for all major IDEs that will automatically lint your `.css` and `.scss` files. The utility can also be run via command line.
+
+
+Our rules are customized and influenced by several prominent leaders in the industry:
+- Github's [Primer](http://primercss.io/guidelines/)
+- Airbnb's [style guide](https://github.com/airbnb/css)
+- Mark Ottos [Code Guide](http://codeguide.co/)
+
+To configure linting:
 
 1. Add an `.stylelintrc` file to your repository
 2. Extend the @2W/linters stylelint config
