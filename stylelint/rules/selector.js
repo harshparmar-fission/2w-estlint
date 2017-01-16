@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': [
+  rules: {
     'selector-attribute-quotes': 'always',
     'selector-class-pattern': '^[a-z]+(-[a-z]+)?$',
     'selector-no-empty': true,
@@ -9,5 +9,5 @@ module.exports = {
     'selector-no-universal': true,
     'selector-no-vendor-prefix': true,
     'selector-max-empty-lines': 0,
-  ],
-}
+  },
+};

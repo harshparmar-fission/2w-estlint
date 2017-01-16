@@ -1,8 +1,8 @@
 module.exports = {
-  "plugins": [
-    "stylelint-scss"
+  plugins: [
+    'stylelint-scss',
   ],
-  'extends': [
+  extends: [
     'stylelint-config-standard',
     './rules/color',
     './rules/declaration',
@@ -11,7 +11,7 @@ module.exports = {
     './rules/sheet',
     './rules/syntax',
   ],
-  'rules': [
-    'stylelint-disable-reason': 'always-after'
-  ]
+  rules: {
+    'stylelint-disable-reason': 'always-after',
+  },
 }

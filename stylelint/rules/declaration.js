@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': [
+  rules: {
     // Declarations
     'declaration-block-no-redundant-longhand-properties': false,
     'declaration-block-no-ignored-properties': true,
@@ -30,7 +30,9 @@ module.exports = {
         'border',
         'border-radius',
       ],
-      { unspecified: "bottomAlphabetical" },
+      {
+        unspecified: 'bottomAlphabetical'
+      },
     ],
-  ],
-}
+  },
+};

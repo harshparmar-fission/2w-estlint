@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': [
+  rules: {
     // At-rule
     'at-rule-no-vendor-prefix': true,
     'at-rule-no-unknown': true,
@@ -9,12 +9,12 @@ module.exports = {
     'media-feature-name-no-vendor-prefix': true,
     'media-feature-no-missing-punctuation': true,
     // Property
-    'property-no-vendor-prefix',
+    'property-no-vendor-prefix': true,
     // String
     'string-quotes': 'single',
     // Value
     'value-keyword-case': 'lower',
     'value-no-vendor-prefix': true,
     'value-list-max-empty-lines': 0,
-  ],
-}
+  },
+};
