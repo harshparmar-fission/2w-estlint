@@ -94,6 +94,10 @@ Our rules are customized and influenced by several prominent leaders in the indu
 - Airbnb's [style guide](https://github.com/airbnb/css)
 - Mark Ottos [Code Guide](http://codeguide.co/)
 
+
+There are currently two versions of our configuration: `css` and `scss`, with the difference being the scss configuration includes rules for .scss files.
+
+
 To configure linting:
 
 1. Add an `.stylelintrc` file to your repository
@@ -101,7 +105,7 @@ To configure linting:
 
   ```
   {
-    "extends": "./node_modules/@2W/linters/stylelint/index.js"
+    "extends": "./node_modules/@2W/linters/stylelint/css.js"
   }
   ```
 3. Add any additional custom rules

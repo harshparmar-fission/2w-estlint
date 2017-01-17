@@ -31,7 +31,7 @@ module.exports = {
         'border-radius',
       ],
       {
-        unspecified: 'bottomAlphabetical'
+        unspecified: 'bottomAlphabetical',
       },
     ],
   },
