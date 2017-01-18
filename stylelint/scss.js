@@ -8,7 +8,9 @@ module.exports = {
   ],
   rules: {
     // Sheet
+    'max-empty-lines': 2,
     'no-browser-hacks': false,
+
     // Syntax
     'at-rule-no-unknown': false,
     'at-rule-empty-line-before': ['always', {

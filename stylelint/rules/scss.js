@@ -27,7 +27,7 @@ module.exports = {
     'scss/dollar-variable-colon-space-before': 'never',
     'scss/dollar-variable-empty-line-before': 'never',
     'scss/dollar-variable-no-missing-interpolation': true,
-    'scss/dollar-variable-pattern': '^([a-z][a-z]*)(-[a-z]+)*$',
+    'scss/dollar-variable-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 
     // %-placeholder
     'scss/percent-placeholder-pattern': '^([a-z][a-z]*)(-[a-z]+)*$',
