@@ -3,6 +3,7 @@ module.exports = {
     'array-type': [true, 'array'],
     // Prefer the eslint rules for this
     'arrow-parens': false,
+    'arrow-return-shorthand': [true, 'multiline'],
     'import-spacing': true,
     indent: ['error', 2, {
       SwitchCase: 1,
@@ -37,6 +38,7 @@ module.exports = {
         'named-imports-order': 'lowercase-first',
       },
     ],
+    'prefer-method-signature': true,
     quotemark: [true, 'single', 'jsx-double', 'avoid-escape'],
     semicolon: true,
     'space-before-function-paren': ['error', {

@@ -2,7 +2,9 @@ module.exports = {
   rules: {
     'member-access': [true, 'check-accessor'],
     'no-empty-interface': true,
-    'no-inferrable-types': true,
+    // Temporary fix until TSLint can handle this and `typedef` together
+    // https://github.com/palantir/tslint/issues/711
+    'no-inferrable-types': [true, 'ignore-params'],
     'no-internal-module': true,
     'no-magic-numbers': true,
     'only-arrow-functions': [true, 'allow-declarations', 'allow-named-functions'],
