@@ -9,6 +9,9 @@ module.exports = {
     './rules/syntax',
   ],
   rules: {
+    // Declarations
+    'declaration-block-no-redundant-longhand-properties': null,
+    // Sheet
     'stylelint-disable-reason': 'always-after',
   },
-}
+};

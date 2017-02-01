@@ -20,12 +20,18 @@ module.exports = {
 
     // @-mixin
     'scss/at-mixin-argumentless-call-parentheses': 'always',
-    'scss/at-mixin-pattern': '^([a-z][a-z]*)(-[a-z]+)*$',
+    'scss/at-mixin-pattern': '^_([a-z][a-z]*)(-[a-z]+)*$',
 
     // $-variable
     'scss/dollar-variable-colon-space-after': 'always',
     'scss/dollar-variable-colon-space-before': 'never',
-    'scss/dollar-variable-empty-line-before': 'never',
+
+    // Disable until this is implemented
+    // https://github.com/kristerkari/stylelint-scss/issues/94
+    // 'scss/dollar-variable-empty-line-before': ['never', {
+    //   ignore: ['after-comment'],
+    // }],
+
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/dollar-variable-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 

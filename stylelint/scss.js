@@ -9,10 +9,10 @@ module.exports = {
   rules: {
     // Sheet
     'max-empty-lines': 2,
-    'no-browser-hacks': false,
+    'no-browser-hacks': null,
 
     // Syntax
-    'at-rule-no-unknown': false,
+    'at-rule-no-unknown': null,
     'at-rule-empty-line-before': ['always', {
       except: [
         'blockless-after-same-name-blockless',
@@ -25,4 +25,4 @@ module.exports = {
       ignoreAtRules: ['else', 'if'],
     }],
   },
-}
+};

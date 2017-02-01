@@ -1,7 +1,6 @@
 module.exports = {
   rules: {
     // Declarations
-    'declaration-block-no-redundant-longhand-properties': false,
     'declaration-block-no-ignored-properties': true,
     'declaration-block-properties-order': [
       [

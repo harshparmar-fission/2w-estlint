@@ -118,7 +118,7 @@ For documentation and examples on the available rules, refer to the following:
 
   ```
   {
-    "extends": "./node_modules/@2W/linters/stylelint/css.js"
+    "extends": "./node_modules/@2W/linters/stylelint/scss.js"
   }
   ```
 3. Add any additional custom rules
