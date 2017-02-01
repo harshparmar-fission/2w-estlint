@@ -70,7 +70,7 @@ module.exports = {
 
     // enforces no braces where they can be omitted
     'ter-arrow-body-style': [true, 'as-needed', {
-      requireReturnForObjectLiteral: true,
+      requireReturnForObjectLiteral: false,
     }],
     // require parens in arrow function arguments
     'ter-arrow-parens': [true, 'as-needed', {

@@ -1,6 +1,6 @@
 {
   "name": "@2W/lint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "linting rules for 2nd watch",
   "author": {
     "name": "Steve Byerly",
