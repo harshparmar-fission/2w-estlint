@@ -1,6 +1,6 @@
 {
   "name": "@2W/lint",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "linting rules for 2nd watch",
   "author": {
     "name": "Steve Byerly",
@@ -8,19 +8,19 @@
     "url": "https://github.com/SteveByerly"
   },
   "dependencies": {
-    "eslint": "^3.14.1",
-    "eslint-config-airbnb": "^14.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0",
-    "stylelint": "^7.7.1",
-    "stylelint-config-standard": "^15.0.1",
-    "stylelint-declaration-use-variable": "^1.6.0",
-    "stylelint-order": "^0.2.2",
-    "stylelint-scss": "^1.4.1",
-    "tslint": "^4.4.2",
-    "tslint-eslint-rules": "^3.2.3",
-    "tslint-microsoft-contrib": "^4.0.0",
-    "tslint-react": "^2.3.0"
+    "eslint": "3.15.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0",
+    "stylelint": "7.8.0",
+    "stylelint-config-standard": "16.0.0",
+    "stylelint-declaration-use-variable": "1.6.0",
+    "stylelint-order": "0.2.2",
+    "stylelint-scss": "1.4.1",
+    "tslint": "4.4.2",
+    "tslint-eslint-rules": "3.3.0",
+    "tslint-microsoft-contrib": "4.0.0",
+    "tslint-react": "2.3.0"
   }
 }

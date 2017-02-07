@@ -1,8 +1,13 @@
 module.exports = {
   rules: {
-    // Declarations
-    'declaration-block-no-ignored-properties': true,
-    'declaration-block-properties-order': [
+    'order/declaration-block-order': [
+        'custom-properties',
+        'dollar-variables',
+        'declarations',
+        'rules',
+        'at-rules',
+    ],
+    'order/declaration-block-properties-specified-order': [
       [
         /* Positioning */
         'position',

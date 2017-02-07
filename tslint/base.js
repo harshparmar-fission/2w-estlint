@@ -1,11 +1,11 @@
 const path = require('path');
 
-const tslintEslint = require.resolve('tslint-eslint-rules');
 const tslintMS = require.resolve('tslint-microsoft-contrib');
 
 module.exports = {
   extends: [
     'tslint:latest',
+    'tslint-eslint-rules',
     './rules/eslint.js',
     './rules/functionality.js',
     './rules/maintainability.js',
@@ -14,7 +14,6 @@ module.exports = {
     './rules/typescript.js',
   ],
   rulesDirectory: [
-    path.join(path.dirname(tslintEslint), 'dist/rules'),
     path.dirname(tslintMS),
   ],
 };

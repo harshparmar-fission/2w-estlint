@@ -4,10 +4,10 @@ module.exports = {
     'at-rule-no-vendor-prefix': true,
     'at-rule-no-unknown': true,
     // Blocks
-    'block-no-single-line': true,
+    'block-opening-brace-newline-after': 'always',
+    'block-closing-brace-newline-before': 'always',
     // Media
     'media-feature-name-no-vendor-prefix': true,
-    'media-feature-no-missing-punctuation': true,
     // Property
     'property-no-vendor-prefix': true,
     // String
