@@ -5,19 +5,6 @@ module.exports = {
     'arrow-parens': false,
     'arrow-return-shorthand': [true, 'multiline'],
     'import-spacing': true,
-    indent: ['error', 2, {
-      SwitchCase: 1,
-      VariableDeclarator: 1,
-      outerIIFEBody: 1,
-      FunctionDeclaration: {
-        parameters: 1,
-        body: 1,
-      },
-      FunctionExpression: {
-        parameters: 1,
-        body: 1,
-      },
-    }],
     'interface-name': [
       true,
       'always-prefix',

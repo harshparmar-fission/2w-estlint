@@ -51,19 +51,7 @@ module.exports = {
     // enforce one true brace style
     'brace-style': [true, '1tbs', { allowSingleLine: true }],
     // this option sets a specific tab width for your code
-    indent: [true, 2, {
-      SwitchCase: 1,
-      VariableDeclarator: 1,
-      outerIIFEBody: 1,
-      FunctionDeclaration: {
-        parameters: 1,
-        body: 1,
-      },
-      FunctionExpression: {
-        parameters: 1,
-        body: 1,
-      },
-    }],
+    // 'ter-indent': [true, 2],
 
     // ES6
     // --------------
