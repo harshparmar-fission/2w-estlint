@@ -1,5 +1,6 @@
 {
-  "name": "@2W/lint",
+  "name": "@2w/lint",
+  "private": true,
   "version": "1.2.0",
   "description": "linting rules for 2nd watch",
   "author": {
@@ -8,19 +9,27 @@
     "url": "https://github.com/SteveByerly"
   },
   "dependencies": {
-    "eslint": "3.15.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.9.0",
-    "stylelint": "7.8.0",
     "stylelint-config-standard": "16.0.0",
     "stylelint-declaration-use-variable": "1.6.0",
     "stylelint-order": "0.2.2",
     "stylelint-scss": "1.4.1",
-    "tslint": "4.4.2",
     "tslint-eslint-rules": "3.3.0",
     "tslint-microsoft-contrib": "4.0.0",
     "tslint-react": "2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "stylelint": "7.8.0",
+    "tslint": "4.4.2",
+    "typescript": "2.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "3.15.0",
+    "stylelint": "7.8.0",
+    "tslint": "4.4.2"
   }
 }
