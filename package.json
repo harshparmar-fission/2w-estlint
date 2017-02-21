@@ -1,7 +1,7 @@
 {
   "name": "@2w/lint",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.1.0",
   "description": "linting rules for 2nd watch",
   "author": {
     "name": "Steve Byerly",
@@ -12,24 +12,24 @@
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-react": "6.10.0",
     "stylelint-config-standard": "16.0.0",
     "stylelint-declaration-use-variable": "1.6.0",
-    "stylelint-order": "0.2.2",
-    "stylelint-scss": "1.4.1",
-    "tslint-eslint-rules": "3.3.0",
+    "stylelint-order": "0.3.0",
+    "stylelint-scss": "1.4.3",
+    "tslint-eslint-rules": "3.4.0",
     "tslint-microsoft-contrib": "4.0.0",
-    "tslint-react": "2.3.0"
+    "tslint-react": "2.4.0"
   },
   "devDependencies": {
-    "eslint": "3.15.0",
-    "stylelint": "7.8.0",
+    "eslint": "3.16.0",
+    "stylelint": "7.9.0",
     "tslint": "4.4.2",
     "typescript": "2.2.0"
   },
   "peerDependencies": {
-    "eslint": "3.15.0",
-    "stylelint": "7.8.0",
+    "eslint": "3.16.0",
+    "stylelint": "7.9.0",
     "tslint": "4.4.2"
   }
 }
