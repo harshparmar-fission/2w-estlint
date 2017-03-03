@@ -18,6 +18,7 @@ module.exports = {
       true,
       'as-needed',
     ],
+    'object-literal-shorthand': true,
     'ordered-imports': [
       true,
       {

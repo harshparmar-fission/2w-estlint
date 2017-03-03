@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'indent': [true, 'spaces'],
+    indent: [true, 'spaces'],
     'max-classes-per-file': [true, 4],
     'no-default-export': true,
     'no-require-imports': true,
