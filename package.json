@@ -15,20 +15,20 @@
     "eslint-plugin-react": "6.10.0",
     "stylelint-config-standard": "16.0.0",
     "stylelint-declaration-use-variable": "1.6.0",
-    "stylelint-order": "0.3.0",
+    "stylelint-order": "0.4.1",
     "stylelint-scss": "1.4.3",
-    "tslint-eslint-rules": "3.4.0",
-    "tslint-microsoft-contrib": "4.0.0",
-    "tslint-react": "2.4.0"
+    "tslint-eslint-rules": "3.5.1",
+    "tslint-microsoft-contrib": "4.0.1",
+    "tslint-react": "2.5.0"
   },
   "devDependencies": {
-    "eslint": "3.16.1",
+    "eslint": "3.18.0",
     "stylelint": "7.9.0",
     "tslint": "4.5.1",
     "typescript": "2.2.1"
   },
   "peerDependencies": {
-    "eslint": "^3.16.1",
+    "eslint": "^3.18.0",
     "stylelint": "^7.9.0",
     "tslint": "^4.5.1"
   }

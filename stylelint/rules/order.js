@@ -1,13 +1,13 @@
 module.exports = {
   rules: {
-    'order/declaration-block-order': [
+    'order/order': [
         'custom-properties',
         'dollar-variables',
         'declarations',
         'rules',
         'at-rules',
     ],
-    'order/declaration-block-properties-specified-order': [
+    'order/properties-order': [
       [
         /* Positioning */
         'position',
