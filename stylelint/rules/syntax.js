@@ -3,6 +3,7 @@ module.exports = {
     // At-rule
     'at-rule-no-vendor-prefix': true,
     'at-rule-no-unknown': true,
+    'at-rule-semicolon-space-before': 'never',
     // Blocks
     'block-opening-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always',

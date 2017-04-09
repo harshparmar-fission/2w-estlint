@@ -7,9 +7,11 @@ module.exports = {
     'import-spacing': true,
     'interface-name': [
       true,
-      'always-prefix',
+      'never-prefix',
     ],
     'no-angle-bracket-type-assertion': true,
+    'no-reference-import': true,
+    'no-unnecessary-callback-wrapper': true,
     'object-curly-spacing': [
       true,
       'always',
@@ -27,6 +29,7 @@ module.exports = {
       },
     ],
     'prefer-method-signature': true,
+    'prefer-template': true,
     quotemark: [true, 'single', 'jsx-double', 'avoid-escape'],
     semicolon: true,
     'space-before-function-paren': ['error', {
