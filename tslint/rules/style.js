@@ -41,6 +41,7 @@ module.exports = {
       true,
       'ban-keywords',
       'check-format',
+      'allow-leading-underscore',
       'allow-pascal-case',
     ],
   },
