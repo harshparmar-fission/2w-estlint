@@ -1,7 +1,7 @@
 {
   "name": "@2w/lint",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "linting rules for 2nd watch",
   "author": {
     "name": "Steve Byerly",
