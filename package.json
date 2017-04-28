@@ -17,15 +17,16 @@
     "stylelint-declaration-use-variable": "1.6.0",
     "stylelint-order": "0.4.3",
     "stylelint-scss": "1.4.4",
+    "tslint-consistent-codestyle": "1.2.0",
     "tslint-eslint-rules": "4.0.0",
     "tslint-microsoft-contrib": "4.0.1",
-    "tslint-react": "2.5.0"
+    "tslint-react": "3.0.0"
   },
   "devDependencies": {
     "eslint": "3.19.0",
     "stylelint": "7.10.1",
     "tslint": "5.1.0",
-    "typescript": "2.2.2"
+    "typescript": "2.3.1"
   },
   "peerDependencies": {
     "eslint": "^3.18.0",
