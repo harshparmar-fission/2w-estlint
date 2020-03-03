@@ -1,12 +1,11 @@
 module.exports = {
   extends: [
     'stylelint-config-standard',
-    './rules/color',
-    './rules/font',
-    './rules/order',
-    './rules/selector',
-    './rules/sheet',
-    './rules/syntax',
+  ],
+  overrides: [
+    {
+      files: ['rules/*.js'],
+    },
   ],
   plugins: [
     'stylelint-order',

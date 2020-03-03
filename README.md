@@ -5,7 +5,6 @@ A collection of linters specific for the 2nd Watch coding standards.
 - [Installation](#installation)
 - [Usage](#usage)
   - [ESLint](#eslint) - Javascript
-  - [TSLint](#tslint) - Typescript
   - [StyleLint](#stylelint) - CSS
 
 ## Contributing
@@ -55,41 +54,6 @@ Use the [eslint-loader](https://github.com/MoOx/eslint-loader) webpack loader.
 
 **Usage with Gulp**:  
 Use the [eslint-gulp](https://github.com/adametry/gulp-eslint) plugin.
-
----
-
-### TSLint:
-
-[TSLint](https://palantir.github.io/tslint/) is a linting utility for Typescript. There are some IDE integrations that will automatically lint your `.ts` and `.tsx`, but support varies. The utility can also be run via command line.
-
-
-Our rules are customized and heavily influenced by the Airbnb Javascript style guide [[link](https://github.com/airbnb/javascript)].
-
-There are currently two versions of our configuration: `front-end` and `back-end`, with the only difference being the front-end configuration includes rules for ReactJS.
-
-For documentation and examples on the available rules, refer to the following:  
-- [TSLint List of available rules](https://palantir.github.io/tslint/rules/)
-- [TSLint TS rule standard configuration](https://github.com/palantir/tslint/blob/master/src/configs/latest.ts)
-- [tSLint-react Rules](https://github.com/palantir/tslint-react)
-- [tslint-eslint JS Rules](https://github.com/buzinas/tslint-eslint-rules)
-
-**To configure linting:**
-
-1. Add a `tslint.json` file to your repository
-2. Extend the 2W-Lint tslint config
-
-  ```
-  {
-    "extends": ["./node_modules/2W-lint/tslint/front-end"]
-  }
-  ```
-3. Add any additional custom rules
-
-**Usage with Webpack**:  
-Use the [tslint-loader](https://www.npmjs.com/package/tslint-loader) webpack loader.
-
-**Usage with Gulp**:  
-Use the [tslint-gulp](https://www.npmjs.com/package/gulp-tslint) plugin.
 
 ---
 

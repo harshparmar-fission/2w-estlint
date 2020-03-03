@@ -3,13 +3,16 @@ module.exports = {
     'stylelint-scss',
   ],
   extends: [
-    './css',
-    './rules/scss',
+    '../css/index',
+  ],
+  overrides: [
+    {
+      files: ['rules/*.js'],
+    },
   ],
   rules: {
     // Sheet
     'max-empty-lines': 2,
-    'no-browser-hacks': null,
 
     // Syntax
     'at-rule-no-unknown': null,
