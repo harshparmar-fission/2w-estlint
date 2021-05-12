@@ -1,6 +1,6 @@
 {
   "name": "@2ndwatch/eslint",
-  "version": "4.1.1",
+  "version": "4.1.1-rc1",
   "description": "Linting rules for 2nd Watch.",
   "repository": "https://github.com/2ndWatch/2w-lint.git",
   "contributors": [
