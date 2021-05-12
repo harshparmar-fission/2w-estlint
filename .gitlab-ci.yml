@@ -1,0 +1,50 @@
+include:
+  - project: '2ndwatch/gitlab-ci'
+    ref: 'v2.1.1'
+    file: '/aws-access.yml'
+  - project: '2ndwatch/gitlab-ci'
+    ref: 'feature/npm-publish'
+    file: '/npm10.17.0.yml'
+
+stages:
+  - secrets
+  - install
+  - test
+  - publish
+
+secrets:
+  stage: secrets
+  extends: .aws-access-with-secrets
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - secrets
+  script:
+    - echo "Loaded secrets into cache."
+
+install:
+  stage: install
+  extends: .npm-install
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules
+
+lint:
+  stage: test
+  extends: .npm-lint
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules
+
+publish:
+  stage: publish
+  extends: .npm-publish
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules
+      - secrets
+  before_script:
+    - source secrets/secrets.txt

@@ -1,6 +1,6 @@
 {
-  "name": "@2ndwatch/lint",
-  "version": "4.1.0",
+  "name": "@2ndwatch/eslint",
+  "version": "4.1.1",
   "description": "Linting rules for 2nd Watch.",
   "repository": "https://github.com/2ndWatch/2w-lint.git",
   "contributors": [
@@ -39,5 +39,8 @@
     "eslint": "^6.8.0",
     "stylelint": "^13.2.0",
     "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "lint": "eslint **/*.js --ignore-pattern node_modules/*"
   }
 }
