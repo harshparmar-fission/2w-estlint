@@ -8,5 +8,6 @@ module.exports = {
     './rules/import.js',
     './rules/prefer-arrow.js',
   ],
+  ignorePatterns: ['node_modules/*'],
   plugins: ['chai-friendly', 'import', 'prefer-arrow'],
 };

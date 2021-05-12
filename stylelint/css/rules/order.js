@@ -1,11 +1,11 @@
 module.exports = {
   rules: {
     'order/order': [
-        'custom-properties',
-        'dollar-variables',
-        'declarations',
-        'rules',
-        'at-rules',
+      'custom-properties',
+      'dollar-variables',
+      'declarations',
+      'rules',
+      'at-rules',
     ],
     'order/properties-order': [
       [
