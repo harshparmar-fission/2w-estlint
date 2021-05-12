@@ -29,6 +29,7 @@ install:
     key: $CI_COMMIT_REF_SLUG
     paths:
       - node_modules
+      - secrets
 
 lint:
   stage: test
@@ -37,6 +38,7 @@ lint:
     key: $CI_COMMIT_REF_SLUG
     paths:
       - node_modules
+      - secrets
 
 publish:
   stage: publish
