@@ -15,12 +15,12 @@ stages:
 secrets:
   stage: secrets
   extends: .aws-access-with-secrets
-  cache:
-    key: $CI_COMMIT_REF_SLUG
-    paths:
-      - secrets
-  script:
-    - echo "Loaded secrets into cache."
+  only:
+    refs:
+      - tags
+    variables:
+      - $CI_COMMIT_TAG =~ /^v\d+\.\d+\.\d+-.+$/
+      - $CI_COMMIT_TAG =~ /^v\d+\.\d+\.\d+$/
 
 install:
   stage: install
