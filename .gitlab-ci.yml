@@ -1,6 +1,6 @@
 include:
   - project: '2ndwatch/gitlab-ci'
-    ref: 'v2.1.1'
+    ref: 'feature/npm-publish'
     file: '/aws-access.yml'
   - project: '2ndwatch/gitlab-ci'
     ref: 'feature/npm-publish'
