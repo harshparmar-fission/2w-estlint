@@ -9,17 +9,21 @@ A collection of linters specific for the 2nd Watch coding standards.
 
 ## Contributing
 
-If there are rules that need changed / updated, submit an [issue](https://github.com/2ndWatch/2W-Lint/issues/new) or [pull request](https://github.com/2ndWatch/2W-Lint/pulls). If necessary, we can review rule changes as a group.
+If there are rules that need changed / updated, submit an [issue](https://gitlab.com/2ndwatch/packages/2w-eslint/-/issues) or [merge request](https://gitlab.com/2ndwatch/packages/2w-eslint/-/merge_requests). If necessary, we can review rule changes as a group.
 
 ## Installation
 
+Configure the .npmrc in your project to pull from our private package repository:
+```
+@2ndwatch:registry=https://gitlab.com/api/v4/packages/npm/
+//gitlab.com/api/v4/packages/npm/:_authToken=1tE6T233rtNJxKQHyJ3P
+```
+
 **via NPM**:  
-`npm install --save-dev ssh://github.com/2ndWatch/2W-Lint.git`
+`npm install --save-dev @2ndwatch/eslint`
 
 **via Yarn**:  
-`yarn add --dev ssh://github.com/2ndWatch/2W-Lint.git`
-
-In the future, versions will be tagged. You will specify a specific tag when installing into your project. Alternatively, you can continue to use the un-tagged url to always get the latest version.
+`yarn add --dev @2ndwatch/eslint`
 
 ## Usage
 
@@ -44,7 +48,7 @@ For documentation and examples on the available rules, refer to the following:
 
   ```
   {
-    "extends": "./node_modules/2W-lint/eslint/index.js"
+    "extends": "./node_modules/@2ndwatch/eslint/eslint-typescript/frontend/index.js"
   }
   ```
 3. Add any additional custom rules
@@ -78,11 +82,11 @@ For documentation and examples on the available rules, refer to the following:
 **To configure linting:**
 
 1. Add an `.stylelintrc` file to your repository
-2. Extend the @2W/linters stylelint config
+2. Extend the @2ndwatch/eslint stylelint config
 
   ```
   {
-    "extends": "./node_modules/@2W/linters/stylelint/scss.js"
+    "extends": "./node_modules/@2ndwatch/eslint/stylelint/scss/index.js"
   }
   ```
 3. Add any additional custom rules
