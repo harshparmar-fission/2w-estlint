@@ -10,4 +10,7 @@ module.exports = {
   ],
   ignorePatterns: ['node_modules/*'],
   plugins: ['chai-friendly', 'import', 'prefer-arrow'],
+  rules: {
+    'linebreak-style': 0,
+  },
 };
