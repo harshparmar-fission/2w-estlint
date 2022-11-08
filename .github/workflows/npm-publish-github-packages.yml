@@ -15,12 +15,13 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
-          # Defaults to the user or organization that owns the workflow file
           scope: '@harshparmar-fission'
-      
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - run: npm i
       - run: npm run lint
       - run: npm ci
+      - run: npm version --no-git-tag-version --allow-same-version -f $RELEASE_VERSION
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
