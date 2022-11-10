@@ -4,5 +4,5 @@ on:
     types: [created]
 jobs: 
   publish:
-    uses: harshad1669/2w-estlint/.github/workflows/build.yml@master
+    uses: harshparmar-fission/2w-estlint/.github/workflows/build.yml@master
     secrets: inherit
