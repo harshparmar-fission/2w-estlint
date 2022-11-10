@@ -21,15 +21,13 @@ jobs:
       - run: npm i
       
       - run: npm ci
-      
-      - run: echo "isBeta=${{ contains(inputs.release-version, '-rc')}}" >> GITHUB_ENV
-      
+
       - name: lint
-        if: ${{ isBeta }}
+        if: ${{ contains(inputs.release-version, '-rc') }}
         run: npm run lint --if-present
         
       - name: test
-        if: ${{ isBeta }}
+        if: ${{ contains(inputs.release-version, '-rc') }}
         run: npm run test --if-present
         
       - run: npm version --no-git-tag-version --allow-same-version -f ${{ inputs.release-version }}
