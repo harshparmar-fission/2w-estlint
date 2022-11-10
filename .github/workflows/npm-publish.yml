@@ -29,12 +29,12 @@ jobs:
       
       - run: npm ci
       
-      - name lint
-        if(is-beta)
+      - name: lint
+        if: ${{contains(RELEASE_VERSION, '-rc')}}
         run: npm run lint --if-present
         
-      - name test
-        if(is-beta)
+      - name: test
+        if: ${{contains(RELEASE_VERSION, '-rc')}}
         run: npm run test --if-present
         
       - run: npm version --no-git-tag-version --allow-same-version -f $RELEASE_VERSION
